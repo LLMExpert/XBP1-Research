@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "xbp1-junction-counter"
+message: "If you use this software, please cite both the software and the paper."
+type: software
+authors:
+  - family-names: Singh
+    given-names: Gurbachan
+    affiliation: "Department of Biology, University of Ottawa"
+license: MIT
+version: 1.0.0
+repository-code: "https://github.com/REPLACE_ME/xbp1-junction-counter"
+abstract: >-
+  Counts the IRE1alpha-dependent 26-nucleotide splice junction in XBP1 mRNA from
+  RNA sequencing data, enumerating all seven coordinate placements rendered
+  equivalent by the flanking direct repeat, reporting Wilson intervals on
+  informative junction reads, and applying a power-based depth standard.

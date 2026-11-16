@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xbp1-junction-counter"
+version = "1.0.0"
+description = "Reliable counting of the XBP1 IRE1alpha-dependent 26-nt splice junction from RNA-seq"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Gurbachan Singh"}]
+requires-python = ">=3.9"
+keywords = ["RNA-seq", "alternative splicing", "XBP1", "IRE1", "unfolded protein response"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+xbp1jc = "xbp1jc.cli:main"
+
+[tool.setuptools]
+packages = ["xbp1jc"]

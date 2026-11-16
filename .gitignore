@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.venv/
+# Never commit alignments or sequencing data to git.
+# Large binaries belong in a Zenodo record, not in version history.
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+.pytest_cache/
+*.egg-info/
